@@ -19,8 +19,3 @@ in python list is mutable
 
 
 # list is mutable
-
-
-import numpy as np
-
-print(dir(np))
