@@ -1,0 +1,158 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f2f6ff;
+  color: #111827;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  color: #f8fafc;
+  background: #080808;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(239, 68, 68, 0.40), transparent 25%),
+    radial-gradient(circle at 85% 20%, rgba(249, 115, 22, 0.16), transparent 18%),
+    radial-gradient(circle at 50% 85%, rgba(255, 255, 255, 0.08), transparent 12%);
+  background-size: 220% 220%, 180% 180%, 160% 160%;
+  background-position: 0% 0%, 100% 30%, 50% 100%;
+  animation: pulseBG 18s ease-in-out infinite alternate;
+}
+
+@keyframes pulseBG {
+  0% {
+    background-position: 0% 0%, 100% 30%, 50% 100%;
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    background-position: 10% 10%, 90% 20%, 55% 90%;
+    filter: hue-rotate(-10deg);
+  }
+  100% {
+    background-position: 0% 0%, 100% 30%, 50% 100%;
+    filter: hue-rotate(0deg);
+  }
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #ffe4e6;
+  text-shadow: 0 0 18px rgba(248, 113, 113, 0.45);
+}
+.card {
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(248, 113, 113, 0.22);
+  border-radius: 20px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.30);
+  backdrop-filter: blur(10px);
+}
+.calculator {
+  display: grid;
+  gap: 12px;
+}
+#calcDisplay {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 16px;
+  border: 1px solid #d1d5db;
+  font-size: 1.6rem;
+  text-align: right;
+  background: #f8fafc;
+  color: #111827;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+button {
+  border: none;
+  border-radius: 18px;
+  padding: 18px 0;
+  font-size: 1.1rem;
+  background: rgba(239, 68, 68, 0.18);
+  color: #f8fafc;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+button:hover {
+  transform: translateY(-2px);
+  background: rgba(248, 113, 113, 0.28);
+  box-shadow: 0 10px 25px rgba(248, 113, 113, 0.18);
+}
+button:active {
+  transform: translateY(0);
+}
+#wide {
+  grid-column: span 2;
+}
+button.wide {
+  grid-column: span 2;
+}
+#equals {
+  background: linear-gradient(135deg, #ef4444, #f97316);
+  color: white;
+  box-shadow: 0 16px 32px rgba(248, 113, 113, 0.24);
+}
+#calculateTax,
+#calculateBirthday {
+  margin-top: 12px;
+  width: 100%;
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  color: white;
+  box-shadow: 0 16px 32px rgba(220, 38, 38, 0.20);
+}
+label {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+input,
+select {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid rgba(248, 113, 113, 0.30);
+  border-radius: 14px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.06);
+  color: #f8fafc;
+}
+input::placeholder {
+  color: rgba(248, 113, 113, 0.65);
+}
+.result-box {
+  margin-top: 16px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 14px;
+  border: 1px solid rgba(248, 113, 113, 0.18);
+  min-height: 72px;
+  white-space: pre-wrap;
+  color: #f8fafc;
+}
+@media (max-width: 640px) {
+  .buttons {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator + GST + Birthday</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Calculator Hub</h1>
+    <section class="card">
+      <h2>Standard Calculator</h2>
+      <div class="calculator">
+        <input id="calcDisplay" type="text" readonly placeholder="0" />
+        <div class="buttons">
+          <button data-value="7">7</button>
+          <button data-value="8">8</button>
+          <button data-value="9">9</button>
+          <button data-value="/">÷</button>
+          <button data-value="4">4</button>
+          <button data-value="5">5</button>
+          <button data-value="6">6</button>
+          <button data-value="*">×</button>
+          <button data-value="1">1</button>
+          <button data-value="2">2</button>
+          <button data-value="3">3</button>
+          <button data-value="-">−</button>
+          <button data-value="0">0</button>
+          <button data-value=".">.</button>
+          <button id="equals">=</button>
+          <button data-value="+">+</button>
+          <button id="clear" class="wide">C</button>
+        </div>
+      </div>
+    </section>
+    <section class="card">
+      <h2>GST / Tax Calculator</h2>
+      <div class="tax-form">
+        <label>
+          Amount:
+          <input id="taxAmount" type="number" min="0" step="0.01" placeholder="0.00" />
+        </label>
+        <label>
+          GST Rate (%) :
+          <input id="gstRate" type="number" min="0" step="0.1" value="18" />
+        </label>
+        <label>
+          Mode:
+          <select id="taxMode">
+            <option value="inclusive">Inclusive</option>
+            <option value="exclusive">Exclusive</option>
+          </select>
+        </label>
+        <button id="calculateTax">Calculate GST</button>
+        <div id="taxResults" class="result-box"></div>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Birthday Calculator</h2>
+      <div class="birthday-form">
+        <label>
+          Your birthday:
+          <input id="birthdayInput" type="date" />
+        </label>
+        <button id="calculateBirthday">Calculate Age</button>
+        <div id="birthdayResults" class="result-box"></div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
