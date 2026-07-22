@@ -15,4 +15,3 @@ print('addition of value :',c)
 print('subtract of value :',d)
 print('multiply of value :',e)
 print('divide of value :',f)
-
