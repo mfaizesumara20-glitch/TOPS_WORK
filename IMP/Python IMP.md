@@ -18,3 +18,14 @@
 5. to close the virtualenv
 
 - **deactivate**
+
+6. string comparison
+  
+ is_premium = 'True'
+
+ hi = (is_premium == 'True')
+
+ print(hi)
+ print(type(hi))
+
+7. 

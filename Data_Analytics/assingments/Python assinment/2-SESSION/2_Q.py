@@ -8,5 +8,4 @@ if product_price>1000:
 
 else:
     print("Delivery charges apply")
-
     
