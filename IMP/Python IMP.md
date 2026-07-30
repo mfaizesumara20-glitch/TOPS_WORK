@@ -28,4 +28,9 @@
  print(hi)
  print(type(hi))
 
-7. 
+7. list functions
+ 
+- apppand() is used to add a single item in a list 
+- extend([]) is used to add multiple variables in a list
+- pop()
+is the function to delete something in list
