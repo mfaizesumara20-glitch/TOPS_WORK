@@ -86,5 +86,16 @@
 
 # Write a program to calculate the remainder when one number is divided by another.
 # a = int(input('Enter a number you want to divide'))
+# b = int(input('Enter a number you want to from divide'))
+#
+# c = a%b
+# print(c)
+
 
 # Write a program to check whether a number is divisible by both 3 and 5.
+# num = int(input('Enter a number : '))
+#
+# if num % 3 == 0 and num % 5 == 0:
+#     print('The number is divisible by both 3 and 5')
+# else:
+#     print('The number is not divisible by both 3 and 5')

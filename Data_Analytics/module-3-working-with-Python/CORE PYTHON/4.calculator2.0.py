@@ -5,8 +5,5 @@
 
 
 
-import hi
-
 a = int(input("enter a number", hi.add))
-
-print(a)
+b = int(input("enter a number", hi.add))
