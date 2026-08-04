@@ -60,11 +60,11 @@
 
 # def count_vowels(text):
 #     count = 0
-#
+
 #     for ch in text.lower():
 #         if ch in "aeiou":
 #             count += 1
-#
+
 #     return count
 # word = input("Enter a string: ")
 # print("Number of vowels:", count_vowels(word))
@@ -129,3 +129,27 @@
 #
 # user_name = input("Enter your name: ")
 # greet(user_name)
+
+
+#  triangle pattern
+
+# for i in range (1,6):
+#     for j in range (i):
+#         print(i+j, end= "")
+#     print()
+
+
+# rows = 5
+
+# Upper half
+# for i in range(rows):
+#     print(" " * (rows - i - 1), end="")
+#     print("*" * (2 * i + 1))
+
+# # Lower half
+# for i in range(rows - 2, -1, -1):
+#     print(" " * (rows - i - 1), end="")
+#     print("*" * (2 * i + 1))
+
+
+

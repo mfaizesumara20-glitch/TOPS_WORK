@@ -34,3 +34,14 @@
 - extend([]) is used to add multiple variables in a list
 - pop()
 is the function to delete something in list
+
+
+8. how to reverse a string
+
+ sti=("Hi i am faize")
+
+ reverse = sti[::-1]
+ print(reverse)
+
+
+9. 
