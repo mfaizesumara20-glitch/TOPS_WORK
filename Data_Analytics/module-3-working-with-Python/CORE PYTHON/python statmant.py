@@ -31,5 +31,13 @@ Control flow statements:
 - return
 - raise
 - yield
-
 """
+
+# single line statement example
+
+# a = int(input("Enter a number: "))
+# b = int(input("Enter another number: "))
+
+
+# message = 'a is greater than b' if a>b else 'b is greater than a'
+# print(message)
