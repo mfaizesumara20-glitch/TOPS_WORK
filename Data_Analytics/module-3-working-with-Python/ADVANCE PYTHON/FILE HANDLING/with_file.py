@@ -7,7 +7,18 @@
 
 # write on file
 
-with open("sting.txt", "w") as file:
-    print(file.write("A string is a set of characters i.e calles string"))
+# with open("sting.txt", "w") as file:
+#     print(file.write("A string is a set of characters i.e calles string"))
 
 
+# with open("python modes",'r') as file:
+#     content = file.read()
+
+# print(content)
+
+
+
+with open("python modes.txt",'w') as file:
+    content = file.read()
+
+print(content)
