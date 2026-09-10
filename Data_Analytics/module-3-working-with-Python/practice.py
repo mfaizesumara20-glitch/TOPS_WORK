@@ -169,3 +169,25 @@
 # cust1.deposit(5000)
 # cust1.withdraw(2000)
 # cust1.display()
+
+
+
+
+
+# x=10
+# try:
+#     print('the value of x is:', y)
+# except:
+#     print('the value of y is not defined')
+
+
+# a = int(input('Enter a number: '))
+# b = int(input('Enter another number: '))
+# c = a + b
+# try:
+#   print('The sum of', a, 'and', b, 'is:', c)
+# except:
+#   print('An error occurred while calculating the sum.')
+
+# finally:
+#   print('Thank you for using the calculator!')

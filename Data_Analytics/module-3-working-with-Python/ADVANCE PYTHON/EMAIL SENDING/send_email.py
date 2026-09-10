@@ -73,10 +73,11 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os
 
+#  stwn gjfr wsbm jffk
 
 sender_email = 'mfaizesumara20@gmail.com'
-receiver_email = 'brijeshdeveloper36@gmail.com'
-app_password = 'tvgq stzj uelp ifyt'
+receiver_email = 'mfaizesumara20@gmail.com'
+app_password = 'stwn gjfr wsbm jffk'
 
 
 # Create email
@@ -94,7 +95,7 @@ message.attach(MIMEText(body, 'plain'))
 
 
 # Attachment
-file_path = 'MFAIZE.jpeg'  # Path to the attachment file
+file_path = 'MFAIZE.jpg'  # Path to the attachment file
 
 try:
 
