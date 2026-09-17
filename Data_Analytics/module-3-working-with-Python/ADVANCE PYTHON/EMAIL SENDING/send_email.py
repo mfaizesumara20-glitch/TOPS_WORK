@@ -76,7 +76,7 @@ import os
 #  stwn gjfr wsbm jffk
 
 sender_email = 'mfaizesumara20@gmail.com'
-receiver_email = 'mfaizesumara20@gmail.com'
+receiver_email = 'baraiyapurvang05@gmail.com'
 app_password = 'stwn gjfr wsbm jffk'
 
 
@@ -89,13 +89,13 @@ message['Subject'] = 'This is a test email'
 
 
 # Email body
-body = 'Hello!\nThis is a test email sent from Python!'
+body = 'Hello!\nhello purvang!'
 
 message.attach(MIMEText(body, 'plain'))
 
 
 # Attachment
-file_path = 'MFAIZE.jpg'  # Path to the attachment file
+file_path = 'MY RECORD.mp4'  # Path to the attachment file
 
 try:
 
@@ -142,3 +142,7 @@ except Exception as e:
 
     print("Failed to send email")
     print("Error:", e)
+
+
+
+    # 998003879
