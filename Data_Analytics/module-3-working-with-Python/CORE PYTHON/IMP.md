@@ -7,7 +7,7 @@ type nul >name of files
 # to create a new virtualenv
 
 ***
-virtualenv name of the environemnt
+python -m venv name of the environemnt
 ***
 
 # to open your virtual environment

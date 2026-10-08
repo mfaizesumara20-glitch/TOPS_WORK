@@ -191,3 +191,9 @@
 
 # finally:
 #   print('Thank you for using the calculator!')
+
+import pyjokes
+
+a = pyjokes.get_joke()
+
+print(a)

@@ -20,7 +20,7 @@ what is class
 #     creat a function:
 #          body of member function
 
-# create an object of class
+# create an object of 
 
 
 # Example
