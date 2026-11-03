@@ -1,0 +1,171 @@
+import sqlite3
+import pandas as pd
+import openpyxl
+import matplotlib.pyplot as plt
+
+
+
+
+conn = sqlite3.connect("college.db")
+cur = conn.cursor()
+
+cur.execute("PRAGMA foreign_keys = ON")
+
+cur.executescript("""
+CREATE TABLE IF NOT EXISTS COUNTRY (
+    CID INTEGER PRIMARY KEY AUTOINCREMENT,
+    CNAME TEXT
+);
+
+CREATE TABLE IF NOT EXISTS STATE (
+    STATE_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    STATE_NAME TEXT
+);
+
+CREATE TABLE IF NOT EXISTS CITY (
+    CITY_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    CITY_NAME TEXT
+);
+
+CREATE TABLE IF NOT EXISTS DEPARTMENT (
+    DEPARTMENT_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    DEPARTMENT_NAME TEXT
+);
+
+CREATE TABLE IF NOT EXISTS COLLEGE (
+    COLLEGE_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    COLLEGE_NAME TEXT
+);
+
+CREATE TABLE IF NOT EXISTS FACULTY (
+    FACULTY_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    FACULTY_NAME TEXT,
+    FACULTY_MOBILE TEXT,
+    FACULTY_ADD TEXT
+);
+
+CREATE TABLE IF NOT EXISTS STUDENT (
+    STUDENT_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    STUDENT_NAME TEXT,
+    STUDENT_MOBILE TEXT,
+    CID INTEGER,
+    STATE_ID INTEGER,
+    CITY_ID INTEGER,
+    DEPARTMENT_ID INTEGER,
+    COLLEGE_ID INTEGER,
+    FACULTY_ID INTEGER,
+
+    FOREIGN KEY (CID) REFERENCES COUNTRY(CID),
+    FOREIGN KEY (STATE_ID) REFERENCES STATE(STATE_ID),
+    FOREIGN KEY (CITY_ID) REFERENCES CITY(CITY_ID),
+    FOREIGN KEY (DEPARTMENT_ID)
+        REFERENCES DEPARTMENT(DEPARTMENT_ID),
+    FOREIGN KEY (COLLEGE_ID) REFERENCES COLLEGE(COLLEGE_ID),
+    FOREIGN KEY (FACULTY_ID) REFERENCES FACULTY(FACULTY_ID)
+);
+""")
+
+# COUNTRY DATA
+cur.executemany(
+    "INSERT INTO COUNTRY (CNAME) VALUES (?)",
+    [("India",), ("USA",), ("Canada",)]
+)
+
+# STATE DATA
+cur.executemany(
+    "INSERT INTO STATE (STATE_NAME) VALUES (?)",
+    [("Gujarat",), ("Maharashtra",), ("Rajasthan",)]
+)
+
+# CITY DATA
+cur.executemany(
+    "INSERT INTO CITY (CITY_NAME) VALUES (?)",
+    [("Rajkot",), ("Mumbai",), ("Jaipur",)]
+)
+
+# DEPARTMENT DATA
+cur.executemany(
+    "INSERT INTO DEPARTMENT (DEPARTMENT_NAME) VALUES (?)",
+    [("Computer Science",), ("Commerce",), ("Data Science",)]
+)
+
+# COLLEGE DATA
+cur.executemany(
+    "INSERT INTO COLLEGE (COLLEGE_NAME) VALUES (?)",
+    [("ABC College",), ("XYZ College",), ("National College",)]
+)
+
+# FACULTY DATA
+cur.executemany("""
+    INSERT INTO FACULTY
+    (FACULTY_NAME, FACULTY_MOBILE, FACULTY_ADD)
+    VALUES (?, ?, ?)
+""", [
+    ("Rahul Patel", "9876543210", "Rajkot"),
+    ("Priya Shah", "9876543211", "Mumbai"),
+    ("Amit Joshi", "9876543212", "Jaipur")
+])
+
+# STUDENT DATA
+cur.executemany("""
+    INSERT INTO STUDENT
+    (STUDENT_ID,STUDENT_NAME, STUDENT_MOBILE, CID, STATE_ID,
+     CITY_ID, DEPARTMENT_ID, COLLEGE_ID, FACULTY_ID)
+    VALUES (?,?, ?, ?, ?, ?, ?, ?, ?)
+""", [
+    (1,"Meet", "9000000001", 1, 1, 1, 1, 1, 1),
+    (2,"faiz", "9000000002", 1, 2, 2, 2, 2, 2),
+    (3,"mishri", "9000000003", 1, 3, 3, 3, 3, 3)
+])
+
+conn.commit()
+
+# JOIN ALL TABLES
+query = ("""
+SELECT
+    STUDENT.STUDENT_NAME,
+    COUNTRY.CNAME,
+    STATE.STATE_NAME,
+    CITY.CITY_NAME,
+    DEPARTMENT.DEPARTMENT_NAME,
+    COLLEGE.COLLEGE_NAME,
+    FACULTY.FACULTY_NAME
+
+FROM STUDENT
+
+JOIN COUNTRY
+ON STUDENT.CID = COUNTRY.CID
+
+JOIN STATE
+ON STUDENT.STATE_ID = STATE.STATE_ID
+
+JOIN CITY
+ON STUDENT.CITY_ID = CITY.CITY_ID
+
+JOIN DEPARTMENT
+ON STUDENT.DEPARTMENT_ID = DEPARTMENT.DEPARTMENT_ID
+
+JOIN COLLEGE
+ON STUDENT.COLLEGE_ID = COLLEGE.COLLEGE_ID
+
+JOIN FACULTY
+ON STUDENT.FACULTY_ID = FACULTY.FACULTY_ID
+""")
+
+
+df  = pd.read_sql(query,conn)
+
+print(df)
+
+conn.commit()
+
+
+
+# cur.execute("DELETE FROM STUDENT")
+
+# conn.commit()
+
+# print("All student records deleted successfully.")
+
+
+conn.close()
