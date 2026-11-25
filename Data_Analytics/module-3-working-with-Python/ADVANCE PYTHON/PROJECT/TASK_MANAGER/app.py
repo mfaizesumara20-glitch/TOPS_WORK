@@ -30,7 +30,7 @@ cur.executemany(
 
      """
  insert or replace into feedback(fid,name, mobile, salary, created_date, comment) values(?,?,?,?,?,?)
-    
+     
     
      """, insert
  )

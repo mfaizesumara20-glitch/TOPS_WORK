@@ -1,0 +1,101 @@
+user_id,first_name,last_name,username,email,age,gender,phone,city,country,signup_date,last_login,subscription_plan,account_status,total_spent_usd
+USR-0001,Rahul,Singh,rahul.singh13,rahul.singh13@example.com,65,Male,+1-7440213415,Rajkot,India,2026-10-17,2026-09-15,Free,Active,0.0
+USR-0002,Aarav,Verma,aarav.verma37,aarav.verma37@example.com,32,Female,+1-9791232393,Mumbai,India,2026-01-21,2026-10-01,Free,Active,0.0
+USR-0003,Pooja,Agarwal,pooja.agarwal10,pooja.agarwal10@example.com,28,Female,+44-7667779376,New York,USA,2024-03-16,2026-10-11,Free,Active,0.0
+USR-0004,Emma,Agarwal,emma.agarwal54,emma.agarwal54@example.com,56,Male,+61-9303082117,Mumbai,India,2023-09-13,2026-10-06,Free,Active,0.0
+USR-0005,Rahul,Martin,rahul.martin56,rahul.martin56@example.com,54,Male,+91-9840104345,Bengaluru,India,2024-04-11,2026-10-17,Enterprise,Inactive,1299.73
+USR-0006,Noah,Reddy,noah.reddy68,noah.reddy68@example.com,58,Female,+44-8525876051,Delhi,India,2024-03-05,2026-08-30,Free,Pending,0.0
+USR-0007,Rahul,Verma,rahul.verma87,rahul.verma87@example.com,58,Male,+1-8985392498,Rajkot,India,2025-02-16,2026-10-20,Enterprise,Active,835.42
+USR-0008,Sneha,Smith,sneha.smith17,sneha.smith17@example.com,32,Female,+61-8149938334,New York,USA,2023-05-16,2026-10-27,Enterprise,Active,1076.87
+USR-0009,Kabir,Shah,kabir.shah73,kabir.shah73@example.com,43,Female,+1-8137651678,London,UK,2023-10-13,2026-10-23,Pro,Active,1120.52
+USR-0010,Olivia,Das,olivia.das84,olivia.das84@example.com,43,Male,+61-7390452952,Delhi,India,2023-04-07,2026-11-09,Free,Active,0.0
+USR-0011,Sneha,Taylor,sneha.taylor86,sneha.taylor86@example.com,22,Male,+61-9272528809,Sydney,Australia,2024-05-29,2026-09-14,Pro,Active,1081.08
+USR-0012,Sneha,Das,sneha.das78,sneha.das78@example.com,35,Female,+91-8260573448,New York,USA,2025-06-09,2026-11-03,Basic,Pending,1313.78
+USR-0013,Arjun,Jackson,arjun.jackson32,arjun.jackson32@example.com,50,Female,+1-7656439677,Pune,India,2025-02-04,2026-11-03,Basic,Inactive,795.53
+USR-0014,Aarav,Martin,aarav.martin51,aarav.martin51@example.com,49,Male,+44-8028439863,New York,USA,2023-04-29,2026-10-24,Pro,Pending,128.48
+USR-0015,Sophia,Bansal,sophia.bansal18,sophia.bansal18@example.com,52,Female,+61-9361388464,Delhi,India,2023-12-05,2026-10-21,Basic,Active,1446.54
+USR-0016,Riya,White,riya.white98,riya.white98@example.com,30,Female,+44-8881625505,San Francisco,USA,2025-11-25,2026-09-27,Free,Active,0.0
+USR-0017,Liam,Sharma,liam.sharma85,liam.sharma85@example.com,53,Male,+91-7304912982,Rajkot,India,2026-07-16,2026-11-16,Free,Pending,0.0
+USR-0018,Divya,Smith,divya.smith19,divya.smith19@example.com,50,Male,+1-9315992115,London,UK,2023-09-28,2026-09-11,Basic,Active,709.46
+USR-0019,Olivia,Joshi,olivia.joshi22,olivia.joshi22@example.com,24,Female,+61-8765670844,New York,USA,2025-08-14,2026-11-17,Basic,Pending,147.63
+USR-0020,Noah,Chopra,noah.chopra53,noah.chopra53@example.com,24,Male,+61-7602078388,Rajkot,India,2025-05-14,2026-10-31,Free,Active,0.0
+USR-0021,Riya,Verma,riya.verma66,riya.verma66@example.com,53,Male,+91-7400560567,Toronto,Canada,2024-04-29,2026-11-02,Basic,Active,1296.98
+USR-0022,Nikhil,Patel,nikhil.patel31,nikhil.patel31@example.com,42,Male,+44-8954246074,San Francisco,USA,2024-08-07,2026-09-30,Basic,Active,1175.04
+USR-0023,Sneha,Kulkarni,sneha.kulkarni72,sneha.kulkarni72@example.com,27,Male,+91-9487560384,Rajkot,India,2026-01-15,2026-11-16,Pro,Active,876.27
+USR-0024,Mason,Bose,mason.bose77,mason.bose77@example.com,28,Male,+91-7798112150,Toronto,Canada,2023-05-21,2026-09-08,Free,Inactive,0.0
+USR-0025,Noah,Singh,noah.singh82,noah.singh82@example.com,33,Female,+91-8800557283,Mumbai,India,2026-09-08,2026-09-10,Basic,Active,391.15
+USR-0026,Sneha,Kulkarni,sneha.kulkarni50,sneha.kulkarni50@example.com,33,Male,+44-8963764597,Delhi,India,2024-10-09,2026-11-14,Free,Active,0.0
+USR-0027,Lucas,Singh,lucas.singh19,lucas.singh19@example.com,52,Male,+1-8498981529,Pune,India,2023-05-21,2026-10-23,Free,Active,0.0
+USR-0028,Karan,White,karan.white48,karan.white48@example.com,57,Non-Binary,+91-9868450609,Toronto,Canada,2026-02-09,2026-10-16,Enterprise,Active,1317.19
+USR-0029,Arjun,Singh,arjun.singh23,arjun.singh23@example.com,65,Female,+44-9597724331,Pune,India,2024-03-07,2026-10-11,Free,Active,0.0
+USR-0030,Arjun,Jackson,arjun.jackson72,arjun.jackson72@example.com,34,Female,+91-9724230947,Mumbai,India,2025-05-17,2026-10-19,Free,Active,0.0
+USR-0031,Vikram,Shah,vikram.shah43,vikram.shah43@example.com,28,Female,+61-9409076656,Toronto,Canada,2023-01-20,2026-11-09,Free,Inactive,0.0
+USR-0032,Nikhil,Mehta,nikhil.mehta79,nikhil.mehta79@example.com,20,Female,+1-8845919895,Sydney,Australia,2023-09-19,2026-11-18,Free,Inactive,0.0
+USR-0033,Pooja,Agarwal,pooja.agarwal15,pooja.agarwal15@example.com,40,Male,+91-8519038154,Rajkot,India,2026-02-20,2026-10-02,Enterprise,Active,1388.65
+USR-0034,Ishita,Agarwal,ishita.agarwal30,ishita.agarwal30@example.com,29,Female,+1-8426725702,Mumbai,India,2025-04-23,2026-08-30,Pro,Inactive,400.21
+USR-0035,Pooja,Kulkarni,pooja.kulkarni23,pooja.kulkarni23@example.com,42,Female,+1-7857158768,London,UK,2025-07-31,2026-10-10,Free,Inactive,0.0
+USR-0036,Ishita,Nair,ishita.nair13,ishita.nair13@example.com,60,Male,+44-7298159856,New York,USA,2024-07-25,2026-10-10,Basic,Active,1471.72
+USR-0037,Ava,Smith,ava.smith13,ava.smith13@example.com,25,Female,+1-9493613917,Pune,India,2024-06-27,2026-11-19,Free,Active,0.0
+USR-0038,Kavya,Kapoor,kavya.kapoor50,kavya.kapoor50@example.com,45,Female,+91-8654401763,Toronto,Canada,2026-03-26,2026-10-30,Free,Active,0.0
+USR-0039,Aarav,Jackson,aarav.jackson78,aarav.jackson78@example.com,61,Female,+44-8852408227,Rajkot,India,2023-05-24,2026-08-30,Enterprise,Active,995.08
+USR-0040,Ananya,Chopra,ananya.chopra48,ananya.chopra48@example.com,50,Male,+44-8728296502,San Francisco,USA,2024-08-28,2026-09-14,Free,Active,0.0
+USR-0041,Noah,Desai,noah.desai32,noah.desai32@example.com,57,Female,+91-8305132983,San Francisco,USA,2024-08-10,2026-10-28,Basic,Active,982.06
+USR-0042,Ethan,Anderson,ethan.anderson66,ethan.anderson66@example.com,61,Male,+1-9829742424,London,UK,2023-06-23,2026-10-18,Basic,Active,502.78
+USR-0043,Karan,Malhotra,karan.malhotra40,karan.malhotra40@example.com,61,Male,+1-7104906255,Rajkot,India,2023-04-05,2026-10-23,Enterprise,Active,1152.73
+USR-0044,Ethan,Taylor,ethan.taylor90,ethan.taylor90@example.com,54,Male,+61-8716495971,San Francisco,USA,2024-05-14,2026-11-05,Basic,Active,1126.45
+USR-0045,Siddharth,Das,siddharth.das23,siddharth.das23@example.com,45,Male,+61-7215686308,Toronto,Canada,2026-02-15,2026-10-23,Enterprise,Active,200.01
+USR-0046,Ethan,Desai,ethan.desai77,ethan.desai77@example.com,53,Female,+61-9353092123,London,UK,2025-07-02,2026-11-03,Pro,Active,388.79
+USR-0047,Ishita,Bansal,ishita.bansal91,ishita.bansal91@example.com,35,Female,+61-9691864041,Toronto,Canada,2024-05-04,2026-10-19,Basic,Active,351.74
+USR-0048,Liam,Smith,liam.smith79,liam.smith79@example.com,23,Male,+61-9980491761,Rajkot,India,2023-11-09,2026-08-25,Free,Active,0.0
+USR-0049,Liam,White,liam.white69,liam.white69@example.com,44,Male,+61-9508601974,San Francisco,USA,2023-02-10,2026-09-11,Free,Active,0.0
+USR-0050,Emma,Iyer,emma.iyer59,emma.iyer59@example.com,44,Female,+1-9096929657,Toronto,Canada,2024-03-25,2026-10-20,Basic,Active,504.19
+USR-0051,Sneha,Kapoor,sneha.kapoor61,sneha.kapoor61@example.com,64,Male,+1-9672573305,London,UK,2025-12-29,2026-11-20,Enterprise,Active,994.5
+USR-0052,Rohan,Shah,rohan.shah64,rohan.shah64@example.com,26,Female,+91-8117362852,Delhi,India,2025-02-15,2026-10-13,Free,Active,0.0
+USR-0053,Siddharth,Das,siddharth.das58,siddharth.das58@example.com,35,Female,+44-7351784589,San Francisco,USA,2025-08-21,2026-11-21,Pro,Active,1427.88
+USR-0054,Ishita,Shah,ishita.shah18,ishita.shah18@example.com,59,Male,+1-7856247605,Mumbai,India,2023-02-11,2026-09-05,Free,Active,0.0
+USR-0055,Sneha,Singh,sneha.singh82,sneha.singh82@example.com,31,Male,+44-7720648887,Pune,India,2026-05-25,2026-09-07,Enterprise,Active,1166.69
+USR-0056,Neha,Iyer,neha.iyer23,neha.iyer23@example.com,55,Male,+61-8703617827,Pune,India,2024-02-11,2026-11-14,Basic,Inactive,364.27
+USR-0057,Aditya,Malhotra,aditya.malhotra48,aditya.malhotra48@example.com,61,Female,+91-8491228808,Bengaluru,India,2025-12-27,2026-09-30,Basic,Active,971.31
+USR-0058,Aarav,Agarwal,aarav.agarwal63,aarav.agarwal63@example.com,49,Male,+61-7657091982,New York,USA,2025-06-10,2026-11-01,Pro,Pending,405.12
+USR-0059,Pooja,Bose,pooja.bose78,pooja.bose78@example.com,48,Male,+44-8384287616,Sydney,Australia,2024-05-17,2026-11-12,Free,Active,0.0
+USR-0060,Siddharth,Anderson,siddharth.anderson82,siddharth.anderson82@example.com,57,Female,+91-9123030247,New York,USA,2024-10-27,2026-10-31,Basic,Active,387.53
+USR-0061,Arjun,Das,arjun.das86,arjun.das86@example.com,62,Female,+91-9218897149,Toronto,Canada,2024-01-27,2026-11-13,Free,Active,0.0
+USR-0062,Ava,Malhotra,ava.malhotra40,ava.malhotra40@example.com,62,Male,+61-7074059253,London,UK,2023-07-10,2026-10-17,Free,Active,0.0
+USR-0063,Meera,Desai,meera.desai84,meera.desai84@example.com,41,Male,+44-8827524957,Toronto,Canada,2026-02-01,2026-10-12,Free,Active,0.0
+USR-0064,Meera,Reddy,meera.reddy39,meera.reddy39@example.com,25,Female,+91-9301518177,New York,USA,2024-01-15,2026-10-30,Free,Active,0.0
+USR-0065,Kavya,Harris,kavya.harris77,kavya.harris77@example.com,56,Male,+1-8272368870,Bengaluru,India,2024-04-10,2026-10-08,Free,Active,0.0
+USR-0066,Ava,Mehta,ava.mehta45,ava.mehta45@example.com,20,Non-Binary,+44-9995384868,Toronto,Canada,2023-09-16,2026-09-03,Pro,Active,1309.08
+USR-0067,Lucas,Iyer,lucas.iyer70,lucas.iyer70@example.com,48,Male,+91-8084386400,Delhi,India,2025-09-05,2026-11-09,Pro,Active,111.12
+USR-0068,Rahul,Desai,rahul.desai16,rahul.desai16@example.com,27,Male,+44-7365849190,Sydney,Australia,2024-05-23,2026-11-08,Basic,Active,894.19
+USR-0069,Mia,Nair,mia.nair76,mia.nair76@example.com,42,Male,+44-9527696207,London,UK,2025-05-28,2026-10-15,Basic,Active,1440.16
+USR-0070,Ananya,Malhotra,ananya.malhotra36,ananya.malhotra36@example.com,58,Male,+1-8030213097,Bengaluru,India,2023-12-22,2026-09-14,Free,Active,0.0
+USR-0071,Ethan,Kulkarni,ethan.kulkarni86,ethan.kulkarni86@example.com,48,Male,+44-8214266162,Rajkot,India,2025-07-18,2026-11-14,Basic,Pending,1181.74
+USR-0072,Rahul,Harris,rahul.harris94,rahul.harris94@example.com,30,Male,+1-9781569954,Toronto,Canada,2023-11-02,2026-10-20,Pro,Active,248.88
+USR-0073,Meera,Martin,meera.martin82,meera.martin82@example.com,36,Male,+44-8728760924,London,UK,2024-07-11,2026-09-20,Basic,Active,897.05
+USR-0074,Nikhil,Taylor,nikhil.taylor51,nikhil.taylor51@example.com,56,Male,+1-9896089430,Bengaluru,India,2026-03-24,2026-09-09,Enterprise,Pending,1008.42
+USR-0075,Arjun,Harris,arjun.harris15,arjun.harris15@example.com,29,Male,+44-7779489931,London,UK,2026-04-13,2026-09-29,Basic,Active,136.86
+USR-0076,Emma,Taylor,emma.taylor52,emma.taylor52@example.com,38,Female,+44-8768002206,Delhi,India,2025-10-11,2026-10-18,Basic,Active,1140.75
+USR-0077,Priya,Anderson,priya.anderson21,priya.anderson21@example.com,38,Male,+61-9210174072,Bengaluru,India,2023-01-03,2026-08-31,Pro,Active,81.31
+USR-0078,Mason,Johnson,mason.johnson89,mason.johnson89@example.com,49,Female,+1-8146997816,Mumbai,India,2026-01-29,2026-11-07,Enterprise,Active,1047.38
+USR-0079,Ananya,Sharma,ananya.sharma90,ananya.sharma90@example.com,56,Female,+44-9365835550,Delhi,India,2023-01-29,2026-09-14,Basic,Active,1262.11
+USR-0080,Ananya,Anderson,ananya.anderson25,ananya.anderson25@example.com,59,Female,+44-9185588660,London,UK,2024-07-13,2026-10-01,Pro,Pending,365.6
+USR-0081,Ava,Mehta,ava.mehta59,ava.mehta59@example.com,30,Female,+1-7299832023,Toronto,Canada,2024-07-19,2026-10-01,Free,Inactive,0.0
+USR-0082,Arjun,Bansal,arjun.bansal10,arjun.bansal10@example.com,36,Female,+61-7638212450,Sydney,Australia,2025-07-03,2026-09-16,Basic,Active,1144.31
+USR-0083,Noah,Anderson,noah.anderson51,noah.anderson51@example.com,30,Non-Binary,+61-8003143045,Rajkot,India,2025-04-21,2026-11-18,Free,Active,0.0
+USR-0084,Riya,Kapoor,riya.kapoor58,riya.kapoor58@example.com,42,Non-Binary,+61-7158998032,Delhi,India,2023-09-16,2026-09-20,Enterprise,Active,150.55
+USR-0085,Divya,Anderson,divya.anderson22,divya.anderson22@example.com,51,Female,+1-8760844750,Mumbai,India,2026-09-02,2026-11-04,Free,Inactive,0.0
+USR-0086,Arjun,Smith,arjun.smith89,arjun.smith89@example.com,62,Male,+44-9896343368,Bengaluru,India,2025-12-28,2026-10-06,Enterprise,Active,1331.16
+USR-0087,Sophia,Agarwal,sophia.agarwal79,sophia.agarwal79@example.com,20,Female,+44-7977046129,Rajkot,India,2023-07-05,2026-09-29,Enterprise,Inactive,1055.84
+USR-0088,Ananya,Anderson,ananya.anderson31,ananya.anderson31@example.com,62,Male,+91-8393178591,Mumbai,India,2023-04-25,2026-10-17,Free,Active,0.0
+USR-0089,Ishita,Jackson,ishita.jackson62,ishita.jackson62@example.com,54,Female,+1-7751917162,Delhi,India,2023-06-11,2026-09-06,Pro,Active,361.24
+USR-0090,Riya,Harris,riya.harris28,riya.harris28@example.com,32,Male,+61-8096619850,Pune,India,2026-09-27,2026-11-22,Pro,Active,431.45
+USR-0091,Ava,Gupta,ava.gupta19,ava.gupta19@example.com,46,Female,+44-9744220825,Sydney,Australia,2025-05-18,2026-08-27,Free,Inactive,0.0
+USR-0092,Kabir,Brown,kabir.brown71,kabir.brown71@example.com,24,Male,+44-9468798461,Sydney,Australia,2024-08-28,2026-08-26,Free,Pending,0.0
+USR-0093,Sneha,Brown,sneha.brown45,sneha.brown45@example.com,18,Female,+61-8229194523,Mumbai,India,2024-04-16,2026-09-07,Pro,Active,285.2
+USR-0094,Arjun,Desai,arjun.desai94,arjun.desai94@example.com,61,Female,+91-8326856608,Bengaluru,India,2025-06-21,2026-11-19,Basic,Active,135.2
+USR-0095,Meera,Smith,meera.smith63,meera.smith63@example.com,29,Male,+44-9279993598,Toronto,Canada,2025-10-24,2026-10-20,Pro,Active,1237.03
+USR-0096,Sophia,Kapoor,sophia.kapoor47,sophia.kapoor47@example.com,65,Female,+61-7323408297,Bengaluru,India,2023-10-16,2026-10-26,Pro,Active,1469.91
+USR-0097,Divya,Kapoor,divya.kapoor81,divya.kapoor81@example.com,41,Male,+91-8135840948,San Francisco,USA,2026-01-03,2026-11-08,Basic,Active,1008.51
+USR-0098,Lucas,Brown,lucas.brown91,lucas.brown91@example.com,41,Male,+61-7107480046,Rajkot,India,2026-06-22,2026-09-13,Free,Active,0.0
+USR-0099,Rahul,Verma,rahul.verma91,rahul.verma91@example.com,47,Female,+61-7501119337,Pune,India,2023-10-14,2026-11-18,Enterprise,Active,738.94
+USR-0100,Ananya,Nair,ananya.nair78,ananya.nair78@example.com,26,Male,+61-9522607583,New York,USA,2023-11-13,2026-10-01,Basic,Inactive,923.48

@@ -12,7 +12,7 @@ try:
     conn = mysql.connector.connect(
         host = "localhost",
         user = "root",
-        password = "",
+        password = "admin",
         database = "task_manager_db_app"
     )
 
